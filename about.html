@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyra Renee</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23a68a6c2c.js" crossorigin="anonymous"></script>   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/back.png" width="50" alt="alt"></a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="graphic.html">Graphic Design</a></li>
+            <li><a href="uiux.html">UI / UX</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script>
+        const toggleBtn = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+      
+        toggleBtn.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      </script>
+
+    
+
+        <div id="about-me">
+            
+            <img src="images/headshot.jpg" height=400 alt="headshot of me">
+            <div>
+            <h2>About Me</h2>
+            <h3>My Background</h3>   
+            <p>Creativity has always been a core part of who I am, from working on digital and product design projects to exploring hands-on art experiences. My time as a teacher’s assistant at Orfalea Children's Center and Petroglyph Ceramic Lounge gave me valuable experience working with kids, teaching me patience, adaptability, and the importance of designing with accessibility in mind.</p>
+            
+            <p>My passion for design started with traditional art and grew into graphic design, leading me to work on branding, marketing, and UX projects.</p>
+            
+            
+            <h3>My Core Values</h3>
+            <p><strong>Environmental Equity</strong> – I believe in designing solutions that promote sustainability and accessibility, ensuring that everyone has the resources to make environmentally responsible choices.</p>
+            <p><strong>Compassion & Empathy</strong> – Whether working with kids, designing for underserved communities, or improving user experiences, I prioritize understanding and addressing real human needs.</p>
+            <p><strong>Equality & Inclusion</strong> – I believe in advocating for equal opportunities, ensuring that design and technology are accessible to everyone, regardless of gender, background, or ability.</p>
+            <p><strong>Women's Health & Empowerment</strong> – I am passionate about supporting women’s health and well-being, using design as a tool to raise awareness, improve access to resources, and promote informed decision-making.</p>
+            </div>
+        </div>
+    
+        <footer>
+            Kyra Calderhead <br>
+            kyra.calderhead@gmail.com <br>
+            <a href="https://www.linkedin.com/in/kyra-calderhead/">LinkedIn</a> <br>
+        </footer>
+    </body> 
+    </html>
