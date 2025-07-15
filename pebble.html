@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pebble | Kyra Renee</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23a68a6c2c.js" crossorigin="anonymous"></script>   
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/back.png" width="50" alt="alt"></a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="graphic.html">Graphic Design</a></li>
+            <li><a href="uiux.html">UI / UX</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script>
+        const toggleBtn = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+      
+        toggleBtn.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      </script>
+       
+            
+                <h1>Pebble</h1>
+                <div id="inn-gal">
+                    <img src="images/pebble-cover.png" width="600" alt="pebble">
+                </div>
+
+                <div id="inn-desc">
+                        <h2>Introduction</h2>
+                        <p>Pebble is a mobile app that helps users find the perfect gifts for loved ones through personalized profiles, curated “For You” pages, thoughtful notes, and customizable product boards.<br>
+                        <p>Pebble is a mobile app designed to make gift-giving more thoughtful and effortless by offering a personalized experience for both givers and recipients. Developed over six weeks, the app centers on connection and creativity, allowing users to explore curated suggestions, organize ideas, and share meaningful gestures with ease. Through intuitive design and engaging interactions, Pebble transforms the often stressful task of finding the right gift into a joyful and personal experience.</p>
+                        <p><strong>Awarded: Audience Choice Award</strong></p>
+
+                        <h2>Problem Statement</h2>
+                        <p>Imagine: You meant to plan ahead, but forgot what you had in mind — and now your friend’s birthday is two days away. You’ve scrolled Amazon, skimmed Buzzfeed gift guides, even asked ChatGPT, but nothing feels right. A candle? Too basic. A funny mug? Already gave her one. Your cart’s full of last-minute, impersonal picks.</p>
+                        <p><img src="images/Screenshot 2025-07-14 at 9.28.19 PM.png" width="550" alt="HMW">
+                        </p>
+
+                        <h2>Research</h2>
+                        <p><strong>Research Goals:</strong>Our main research goal was to better understand how people approach gift-giving and to validate the idea that finding a meaningful and unique gift can be a difficult and time-consuming task. We aimed to explore the pain points in the gifting process and assess how users respond when faced with the challenge of selecting thoughtful gifts.</p>
+
+                        <p><strong>Research Methods:</strong>Our team adopted a mixed-methods research approach to better understand how individuals navigate the gift-giving process and the challenges they face.</p>
+                        <p>We began with a survey that gathered 39 responses, helping us identify who users typically buy gifts for and their general gifting habits.</p>
+                        <p>To gain deeper qualitative insights, we conducted seven one-on-one user interviews focused on uncovering the emotional and logistical aspects of choosing thoughtful gifts.</p>
+                        <p><img src="images/Survey.png" width="600"></p>
+                        <p>Additionally, we developed two user personas to represent our core audiences, one prioritizing speed and efficiency, and the other seeking a more collaborative and personal gifting experience.</p>
+                        <p>A competitive analysis of four existing gifting platforms, Elfster, Giftagram, Tinggly, and Giftser, helped us identify common design patterns and potential areas for innovation.</p>
+                        <p><img src="images/User Interviews.png" width="600"></p>
+                    <p><strong>Key Research Data & Findings</strong>
+                        Our survey revealed key quantitative data about user behavior, while interviews provided valuable qualitative insights into the emotional side of gifting. The findings confirmed that many people struggle to find gifts that feel truly personal, often defaulting to generic options due to time constraints or lack of inspiration.
+                        </p>
+                        <p><strong>Demographic Composition</strong>
+                            Most of our respondents identified as female, and this demographic skew was reflected in both the survey and interview responses. To better empathize with our users, we created two personas representing different gifting approaches, streamlined vs. emotionally driven.
+                            </p>
+                <h2>Ideation</h2>
+                <p><strong>Feature Matrix</strong></p>
+                <p><img src="images/feature matriz.png" width="600"></p>
+                <p>After synthesizing our research insights, we identified a wide range of potential features. To clarify our priorities, we created a feature matrix that helped us visualize and evaluate key functionalities, including group gifting, customization options, interest-based tags, feed organization, and price comparison tools.</p>
+                
+                
+                <p><strong>Low-Fidelity Sketches</strong></p>
+                <p><img src="images/lo-fi.png" width="600"></p>
+                <p>From our low-fidelity prototypes, we used the feature matrix to guide our design decisions and prioritize the most impactful features.</p>
+
+                <p><strong>Mid-Fidelity Sketches</strong></p>
+                <p><img src="images/mid-fi.png" width="600"></p>
+                <p>The mid-fidelity features were designed to directly address key user pain points uncovered during research. By prioritizing upcoming events and important dates on the homepage, users are consistently reminded of relevant occasions, helping them stay organized and proactive. Additionally, the app streamlines the gift discovery process, making it easy for users to browse, select, and curate gifts they love. This not only enhances personalization but also reduces the stress and time typically associated with finding the perfect gift.</p>
+
+                <h2>Usability Testing</h2>
+                <p><img src="images/User Interviews.png" width="600"></p>
+                <p>Participants (ages 19–22, primarily female-identifying students or young professionals) were asked to complete the following tasks:</p>
+                <p>1. Finding a friend’s wishlist</p>
+                <p>2. Sending a personalized note</p>
+                <p>3. Building their own wishlist or board</p>
+                <p>Testing revealed that while the core features were engaging, several usability issues emerged. Users found wishlists difficult to locate, the personalized note feature lacked intuitiveness, and the overall color scheme gave the app a “cheap” appearance, drawing unfavorable comparisons to platforms like Temu.</p>
+
+                <h2>Hi-Fidelity Prototyping</h2>
+                <p><img src="images/DESIGN SYSTEM.png" width="600"></p>
+                <p>Our design system was built to reflect the friendly and approachable brand identity, anchored by the use of the Figtree sans-serif font, soft color palettes, and rounded components.</p>
+                <p>Initially featuring orange tones, the color scheme shifted to a blue-centered palette based on user feedback, particularly to avoid associations with brands like Temu.</p>
+                <p>To enhance accessibility and reduce eye strain, off-whites and deep grays were incorporated.</p>
+                <p>Soft, rounded icons and a minimal use of a round, friendly penguin mascot helped maintain visual cohesion across typography, layout, and components.</p>
+
+                <p><strong>Onboarding / Profile & Saved Pins</strong></p>
+                <p><img src="images/ONBOARDING.gif" width="300"><img src="images/profile and saved pins.gif" width="300"></p>
+
+                <p><strong>Homepage & For You / Product Page</strong></p>
+                <p><img src="images/smaller home and for you.gif" width="300"><img src="images/product page.gif" width="300"></p>
+                
+                <p><strong>Friend's Profile / Chat Features</strong></p>
+                <p><img src="images/Friend Page.gif" width="300"><img src="images/CHATS.gif" width="300"></p>
+
+                <p><strong>Creating a New Board / Creating a Personalized Note</strong></p>
+                <p><img src="images/new-board.gif" width="300"><img src="images/personalized-note.gif" width="300"></p>
+
+                <h2>Presentation Day!</h2>
+                <p><img src="images/pres-day.JPG" width="600"></p>
+                </div>
+
+                <footer>
+                  Kyra Calderhead <br>
+                  kyra.calderhead@gmail.com <br>
+                  <a href="https://www.linkedin.com/in/kyra-calderhead/">LinkedIn</a> <br>
+              </footer>
+</body>
+</html>

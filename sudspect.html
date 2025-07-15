@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudspect | Kyra Renee</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23a68a6c2c.js" crossorigin="anonymous"></script>   
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/back.png" width="50" alt="alt"></a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="graphic.html">Graphic Design</a></li>
+            <li><a href="uiux.html">UI / UX</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      <script>
+        const toggleBtn = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+      
+        toggleBtn.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+        });
+      </script>
+       
+            
+                <h1>Sudspect</h1>
+                <div id="inn-gal">
+                    <img src="images/sudspect.png" width="600" alt="pebble">
+                </div>
+
+                <div id="inn-desc">
+                        <h2>Introduction</h2>
+                        <p>Sudspect is a mobile app that supports scanning for fast access to ingredient information on common home cleaning products; presenting a rating for each product scanned</p>
+
+                        <h2>Problem Statement</h2>
+                        <p>Consumers struggle to make eco-conscious laundry choices due to greenwashing and a lack of transparency, leading to microplastic pollution that harms ecosystems and human health. Without accessible, reliable information, identifying truly sustainable products remains a challenge.
+                        </p>
+
+                        <h2>User Research</h2>
+                        <p><strong>Target Audience: </strong>Parents and caregivers who are concerned about harmful chemicals in laundry detergent</p>
+
+                        <p>Eco conscious consumers looking for genuinely sustainable products, not the mainstream greenwashing</p>
+                            
+                        <p>Low-income consumers looking for affordable and non-toxic alternatives</p>
+                            
+                        <p>People with sensitive skin or allergies in need of synthetic-free products</p>
+
+                        <p><strong>Objectives: </strong>The goal is to increase transparency, make sustainable shopping easy and affordable, drive awareness of microplastics, and hold brands accountable using a brand sustainability tracker to expose misleading or greenwashed claims.</p>
+                        <p>To be accomplished through barcode scanners.</p>
+                        <p>Brand transparency tracker </p>
+                        <p>Personalized recommendations based on budget and needs</p>
+                        <p>Easy-to-digest educational facts about sustainability in products</p>
+                        <p>Clear visual hierarchy with icons and color-coded ratings, fast UI</p>
+
+                        <h2>Surveys</h2>
+                        <p><strong>60% </strong>moderately value sustainability in laundry products</p>
+                        <p><strong>40% </strong>reported not being very aware of environmental impacts in laundry products</p>
+                        <p><strong>80% </strong>of consumers are unsure which products are truly sustainable</p>
+
+
+                       <h3>Synthesis</h3>
+                       <p><strong>User Persona</strong></p>
+                       <p>Meet Stephen, a low-income single dad, is busy and needs a fast and efficient solution to identify sustainable laundry options to best protect his children from harmful chemicals, but also an efficient product to sanitize and remove stains from their clothes.</p>
+
+                       <p><strong>Pain Points</strong></p>
+                       <p>Consumers struggle finding budget friendly options that are sustainable and clean</p>
+                       <p>Consumers find it difficult to know which options are genuinely sustainable</p>
+
+                       <p><strong>Competitve Analysis</strong></p>
+                       <p><img src="images/comp-anal-suds.png"></p>
+                       <p>All three of these apps include a simple display breakdown of ingredients, the potential harm, and are visually appealing. The most common gaps are the lack of in-app purchasing. A user can scan a product, but has to go to a different browser or app to complete a purchase. Additionally, only Codecheck had user reviews on products displayed - this is an important feature to build trust and gain community insights. Lastly, all of the apps covered a wide range of products, often meaning it was difficult to see laundry products right away and filter by skin type, microplastics, chemicals, and more without being convoluted with other categories.</p>
+
+                       <p><strong>Ideation</strong></p>
+                       <p><img src="images/user-flows 2025-03-06 at 11.26.08 AM.png" width="600"></p>
+                       <p><img src="images/user-flows 2025-03-06 at 11.26.16 AM.png" width="600"></p>
+                       <p><img src="images/user-flows 2025-03-06 at 11.26.22 AM.png" width="600"></p>
+                       <p><img src="images/user-flows 2025-03-06 at 11.26.29 AM.png" width="600"></p>
+                       
+                       <p><strong>Wire-flows</strong></p>
+                       <p><img src="images/wire-flows 2025-03-06 at 11.30.29 AM.png" width="600"></p>
+                       <p><img src="images/wire-flows 2025-03-06 at 11.30.37 AM.png" width="600"></p>
+                       <p><img src="images/wire-flows 2025-03-06 at 11.30.45 AM.png" width="600"></p>
+                       <p><img src="images/wire-flows 2025-03-06 at 11.30.52 AM.png" width="600"></p>
+                    
+                       <p><strong>Usability Testing</strong></p>
+                       <p><img src="images/use-test-one.png" width="500"></p>
+                       <p>My first round of user testing provided clarity on what my next steps were. I organized and categorized the most common pain points for my three flows.</p>
+
+                       <p><strong>Mid-Fidelity</strong></p>
+                       <p><img src="images/mid-fi-onboard-suds.gif" width="300"></p>
+                       <p><img src="images/suds-mid-scann.gif" width="300"></p>
+
+                       <p><strong>User Testing Round Two</strong></p>
+                       <p><img src="images/use-test-to.png" width="500"></p>
+                       <p>My second round of user testing provided more interactive feedback due to the mid-fidelity offering user touch points. I again organized my second phase of user testing into the three main categories, identifying the most common issues my users experienced.</p>
+
+                       <h3>Hi-Fidelity</h3>
+                       <p><strong>Final Solution</strong></p>
+
+                       <p>Onboarding</p>
+                       <p><img src="images/ONBOARDING-SUDS.gif" width="300"></p>
+
+                       <p>Scanning & Add to Cart</p>
+                       <p><img src="images/checkingout-suds.gif" width="300"></p>
+
+                       <p>Exploring Categories</p>
+                       <p><img src="images/categories-suds.gif" width="300"></p>
+
+                       <p>Exploring Reviews</p>
+                       <p><img src="images/LOOKING AT REVIEWS-SUDS.gif" width="300"></p>
+
+                </div>
+
+                <footer>
+                  Kyra Calderhead <br>
+                  kyra.calderhead@gmail.com <br>
+                  <a href="https://www.linkedin.com/in/kyra-calderhead/">LinkedIn</a> <br>
+              </footer>
+</body>
+</html>
